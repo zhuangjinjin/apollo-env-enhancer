@@ -49,7 +49,7 @@ mvn clean install -Dmaven.test.skip=true
 
 **Step4: 设置meta-server的地址**
 
-apollo的用法就不赘述了，[可见]([https://github.com/ctripcorp/apollo/wiki/Java%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97](https://github.com/ctripcorp/apollo/wiki/Java客户端使用指南))
+apollo的用法就不赘述了，可见[apollo java客户端使用指南](https://github.com/ctripcorp/apollo/wiki/Java客户端使用指南)
 
 打开apollo-env.properties
 
@@ -60,6 +60,6 @@ rd.meta=http://rd.xxx.com:8080
 启动参数
 
 ```shell
--Denv=rd
+
 ```
 
