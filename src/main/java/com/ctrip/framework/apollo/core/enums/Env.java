@@ -42,15 +42,15 @@ public class Env{
         this.name = name;
     }
 
-    public static Env LOCAL = new Env("LOCAL");
-    public static Env DEV = new Env("DEV");
-    public static Env FWS = new Env("FWS");
-    public static Env FAT = new Env("FAT");
-    public static Env UAT = new Env("UAT");
-    public static Env LPT = new Env("LPT");
-    public static Env PRO = new Env("PRO");
-    public static Env TOOLS = new Env("TOOLS");
-    public static Env UNKNOWN = new Env("UNKNOWN");
+    public static final Env LOCAL = new Env("LOCAL");
+    public static final Env DEV = new Env("DEV");
+    public static final Env FWS = new Env("FWS");
+    public static final Env FAT = new Env("FAT");
+    public static final Env UAT = new Env("UAT");
+    public static final Env LPT = new Env("LPT");
+    public static final Env PRO = new Env("PRO");
+    public static final Env TOOLS = new Env("TOOLS");
+    public static final Env UNKNOWN = new Env("UNKNOWN");
 
     public static ConcurrentHashMap<String, Env> envs = new ConcurrentHashMap<>();
 
