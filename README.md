@@ -60,6 +60,6 @@ rd.meta=http://rd.xxx.com:8080
 启动参数
 
 ```shell
-
+-Denv=rd
 ```
 
